@@ -37,4 +37,4 @@ def process_data():
 if __name__ == '__main__':
     # Run the Flask server on port 5000
     # Replace `0.0.0.0` with `127.0.0.1` if you want to restrict access to local
-    app.run(host='127.0.0.1', port=5000)
+    app.run()
