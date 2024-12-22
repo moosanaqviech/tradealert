@@ -18,11 +18,12 @@ def process_data():
 
         # Print the data for debugging (optional)
         print(f"Received data: {data}")
+        app.logger.info(f"Received data: {data}")
 
         # Perform any processing with the data here
         # For now, just logging that the data was received
         print(f"Processing data for item: {item_id}, title: {title}")
-
+        app.logger.info(f"Processing data for item: {item_id}, title: {title}")
         # Respond to Wix to indicate success
         response = {
             "status": "success",
