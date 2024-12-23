@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return <h1>TradeNotification!</h1>
+    return "<h1>TradeNotification!</h1>"
 @app.route('/process-data', methods=['POST'])
 def process_data():
     # Get the JSON data from the request
